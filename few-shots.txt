@@ -1,0 +1,54 @@
+# Exemple avec prompt simple
+
+Extraire les informations financières clés de ce rapport :
+
+"XYZ Corp. a terminé l'année 2024 avec un chiffre d'affaires de 5 milliards d'euros, une augmentation de 8% par rapport à l'année précédente. 
+Cependant, les bénéfices nets ont diminué de 3% pour atteindre 400 millions d'euros. La société a réduit sa dette nette de 10% à 1,2 milliard d'euros, et a investi 200 millions d'euros dans l'innovation et l'expansion internationale. 
+Malgré une faible croissance des ventes, XYZ Corp. continue d'augmenter sa part de marché dans le secteur de la technologie."
+
+
+# Exemple avec few shot
+Voici des exemples d'extraction d'informations financières d'un rapport d'entreprise, avec une structure claire pour les données à extraire :
+
+Chiffre d'affaires : Valeur du chiffre d'affaires annuel
+Croissance du chiffre d'affaires : Pourcentage de l'augmentation ou de la diminution par rapport à l'année précédente
+Bénéfices nets : Montant des bénéfices nets
+Croissance des bénéfices nets : Pourcentage de l'augmentation ou de la diminution des bénéfices nets par rapport à l'année précédente
+Dette nette : Montant de la dette nette
+Réduction de la dette nette : Pourcentage de réduction de la dette nette
+Investissements : Montant des investissements réalisés dans l'innovation, l'expansion, etc.
+Part de marché : Description de l’évolution de la part de marché ou de la position sur le marché
+
+Exemples :
+Rapport 1 :
+"ABC Inc. a terminé l'année 2023 avec un chiffre d'affaires de 8 milliards de dollars, en hausse de 5% par rapport à 2022. 
+Les bénéfices nets ont atteint 1 milliard de dollars, une augmentation de 10% par rapport à l'année précédente. La dette nette a diminué de 15%, passant à 2,5 milliards de dollars. ABC Inc. a investi 300 millions de dollars en recherche et développement."
+
+Extraction :
+Chiffre d'affaires : 8 milliards de dollars
+Croissance du chiffre d'affaires : +5%
+Bénéfices nets : 1 milliard de dollars
+Croissance des bénéfices nets : +10%
+Dette nette : 2,5 milliards de dollars
+Réduction de la dette nette : -15%
+Investissements : 300 millions de dollars
+Part de marché : Non mentionnée
+
+Rapport 2 :
+"DEF Ltd. a généré 3 milliards d'euros en 2024, en baisse de 2%. Les bénéfices nets ont diminué de 15% à 150 millions d'euros. 
+Leur dette nette reste stable à 500 millions d'euros, mais l'entreprise a investi 50 millions d'euros dans des acquisitions stratégiques."
+
+Extraction :
+Chiffre d'affaires : 3 milliards d'euros
+Croissance du chiffre d'affaires : -2%
+Bénéfices nets : 150 millions d'euros
+Croissance des bénéfices nets : -15%
+Dette nette : 500 millions d'euros
+Réduction de la dette nette : Non mentionnée
+Investissements : 50 millions d'euros
+Part de marché : Non mentionnée
+
+Maintenant, extrait les informations financières clés de ce rapport :
+"XYZ Corp. a terminé l'année 2024 avec un chiffre d'affaires de 5 milliards d'euros, une augmentation de 8% par rapport à l'année précédente. 
+Cependant, les bénéfices nets ont diminué de 3% pour atteindre 400 millions d'euros. La société a réduit sa dette nette de 10% à 1,2 milliard d'euros, et a investi 200 millions d'euros dans l'innovation et l'expansion internationale. 
+Malgré une faible croissance des ventes, XYZ Corp. continue d'augmenter sa part de marché dans le secteur de la technologie."
